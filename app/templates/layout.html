@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    {% if title %}
+    <title>{{title}}</title>
+    {% else %}
+    <title>MY SITE</title>
+    {% endif %}
+</head>
+<body>
+    <h1 class="h1">Newest news on site!!!</h1>
+    {% block content %}  {% endblock %}
+
+
+
+
+    <div class="footer">
+        <span>Copyright retr0 2020</span>
+    </div>
+
+</body>
+</html>
