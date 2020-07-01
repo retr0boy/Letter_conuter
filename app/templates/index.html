@@ -2,16 +2,7 @@
 
 {% block content %}
 <h1>UPD 25.06.20</h1>
-{% if data %}
-{% for countries in data %}
-{{data[countries]}} is the capital of {{countries}}<br>
-{% endfor %}
-{% endif %}
 
 <a href={{url_for('upload')}}>upload</a>
-<div>
-    <h1>{{text}}</h1>
-
-</div>
 
 {% endblock %}
